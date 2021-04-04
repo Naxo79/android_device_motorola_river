@@ -38,7 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 #BUILD_FINGERPRINT := motorola/river_retail/river:10/QPUS30.52-16-2-12/c57dd6:user/release-keys
 
 # StyxOS
-STYX_BUILD_VARIANT := RELEASE
+STYX_BUILD_VARIANT := OFFICIAL
 
 PRODUCT_PRODUCT_PROPERTIES += \
     org.styxproject.maintainer=Fernando HZ
