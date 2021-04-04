@@ -37,5 +37,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
 #BUILD_FINGERPRINT := motorola/river_retail/river:10/QPUS30.52-16-2-12/c57dd6:user/release-keys
 
-# StyxOS Variant
+# StyxOS
 STYX_BUILD_VARIANT := RELEASE
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    org.styxproject.maintainer=Fernando HZ
