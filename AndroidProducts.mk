@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/styx_river.mk
+    $(LOCAL_DIR)/arrow_river.mk
 
 COMMON_LUNCH_CHOICES := \
-    styx_river-eng \
-    styx_river-user \
-    styx_river-userdebug
+    arrow_river-eng \
+    arrow_river-user \
+    arrow_river-userdebug

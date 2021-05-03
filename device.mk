@@ -20,9 +20,6 @@ $(call inherit-product, vendor/motorola/river/river-vendor.mk)
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
-# Experimental
-PRODUCT_SOONG_NAMESPACES += packages/apps/Bluetooth
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -62,14 +59,6 @@ PRODUCT_COPY_FILES += \
 # Moto Camera 2
 PRODUCT_PACKAGES += \
     MotCamera2
-
-# Moto TimeWeather
-PRODUCT_PACKAGES += \
-    TimeWeather
-
-# Moto Live Wallpaper
-PRODUCT_PACKAGES += \
-    MotoLiveWallpaper3
 
 # Fingerprint
 PRODUCT_COPY_FILES += \
