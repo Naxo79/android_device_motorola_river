@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_river.mk
+    $(LOCAL_DIR)/dot_river.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_river-eng \
-    arrow_river-user \
-    arrow_river-userdebug
+    dot_river-eng \
+    dot_river-user \
+    dot_river-userdebug
